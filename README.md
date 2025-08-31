@@ -11,7 +11,6 @@ A machine learning project that predicts credit scores using Random Forest class
 - [Features](#features)
 - [Project Structure](#project-structure)
 - [Results](#results)
-- [Contributing](#contributing)
 
 ## 🎯 Overview
 
