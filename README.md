@@ -58,7 +58,7 @@ pip install pandas numpy matplotlib seaborn scikit-learn
 
 ### Basic Usage
 ```python
-python credit_score_prediction.py
+python credit_scoring_model.ipynb
 ```
 
 ### Key Components
@@ -125,9 +125,8 @@ credit-score-prediction/
 │   ├── train.csv           # Training dataset
 │   └── test.csv            # Test dataset
 │
-├── credit_score_prediction.py  # Main script
+├── credit_scoring_model.ipynb  # Main script
 ├── README.md               # Project documentation
-└── requirements.txt        # Python dependencies
 ```
 
 ## 📊 Results
@@ -165,25 +164,6 @@ Sample Predictions on Test Data: [0 1 2 1 0 ...]
 4. Label encoding transformation
 5. Data consistency verification
 
-## 🔮 Future Improvements
-
-Potential enhancements for the model:
-- Hyperparameter tuning using GridSearchCV
-- Feature selection techniques
-- Advanced preprocessing (scaling, normalization)
-- Cross-validation for robust evaluation
-- Ensemble methods combining multiple algorithms
-- Feature engineering from domain knowledge
-
-## 🤝 Contributing
-
-To contribute to this project:
-1. Fork the repository
-2. Create a feature branch
-3. Make your improvements
-4. Add appropriate tests
-5. Submit a pull request
-
 ## 📝 Notes
 
 - The model uses stratified sampling to maintain class balance
@@ -198,8 +178,3 @@ To contribute to this project:
 - The model assumes categorical variables can be meaningfully label-encoded
 - Results may vary with different random states or data splits
 
----
-
-**Author**: [Your Name]  
-**Last Updated**: [Current Date]  
-**Version**: 1.0
